@@ -162,8 +162,8 @@ export interface MapboxSymbol {
 }
 export interface MapboxLayers {
     visible: true;
-    sourcetype: 'geojson' | 'vecotr' | 'raster' | 'image';
-    source: number | string;
+    sourcetype: 'geojson' | 'vector' | 'raster' | 'image';
+    source: number[] | string[];
     sourcelayer: string;
     sourceattribution: string;
     type: 'circle' | 'line' | 'fill' | 'symbol' | 'raster';
