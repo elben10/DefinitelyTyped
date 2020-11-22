@@ -162,7 +162,7 @@ export interface MapboxSymbol {
 }
 export interface MapboxLayers {
     visible: true;
-    sourcetype: 'geojson' | 'vecotr' | 'raster' | 'image';
+    sourcetype: 'geojson' | 'vector' | 'raster' | 'image';
     source: number | string;
     sourcelayer: string;
     sourceattribution: string;
