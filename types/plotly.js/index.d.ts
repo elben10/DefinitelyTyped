@@ -163,7 +163,7 @@ export interface MapboxSymbol {
 export interface MapboxLayers {
     visible: true;
     sourcetype: 'geojson' | 'vector' | 'raster' | 'image';
-    source: number | string;
+    source: number[] | string[];
     sourcelayer: string;
     sourceattribution: string;
     type: 'circle' | 'line' | 'fill' | 'symbol' | 'raster';
